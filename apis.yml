@@ -1,8 +1,28 @@
 aid: somethings
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/somethings.png
 name: Somethings
-description: Somethings is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Somethings is a teen mental health support platform that connects adolescents
+  with Certified Peer Specialist Mentors through a mobile app for iOS and
+  Android. Rather than traditional therapy or AI chatbots, teens can call or
+  chat anytime with trained mentors who have personal lived experience
+  overcoming challenges like anxiety, depression, self-harm, eating disorders,
+  and ADHD, backed by clinical supervision. The service is HIPAA-compliant and
+  sold to health plans, insurers, employers, and directly to parents. Somethings
+  is a venture-backed company in the API Evangelist network; it operates a
+  consumer/clinical mobile product and does not currently publish a public
+  developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/somethings/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mental Health
+- Healthcare
+- Teen
+- Peer Support
+- Wellness
+- Telehealth
+- HIPAA
 apis: []
+common:
+- type: DomainSecurity
+  url: security/somethings-domain-security.yml
+- type: Website
+  url: https://www.somethings.com
+- type: Blog
+  url: https://www.somethings.com/blog
+- type: PrivacyPolicy
+  url: https://www.somethings.com/privacy-policy
+- type: TermsOfService
+  url: https://www.somethings.com/terms-of-use
+- type: Compliance
+  url: https://www.somethings.com/hipaa
+- type: SignUp
+  url: https://form.typeform.com/to/Fu2Dnmlx
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
